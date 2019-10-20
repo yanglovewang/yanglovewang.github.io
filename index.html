@@ -5,16 +5,16 @@
   
 
   
-  <title>Hexo</title>
+  <title>念念回首处，即是灵山。</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="念念回首处，即是灵山。">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="念念回首处，即是灵山。">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="念念回首处，即是灵山。" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -33,7 +33,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">念念回首处，即是灵山。</a>
       </h1>
       
     </div>
@@ -67,6 +67,10 @@
   <time datetime="2019-10-20T11:22:39.000Z" itemprop="datePublished">2019-10-20</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/">测试分类</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -87,7 +91,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/20/%E6%B5%8B%E8%AF%951/" data-id="ck1ywjyek00009sm86ajv8jnd" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/20/%E6%B5%8B%E8%AF%951/" data-id="ck1yztsze0002vom84esnebos" class="article-share-link">Share</a>
       
       
     </footer>
@@ -122,27 +126,16 @@
         <h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g 在设备上安装hexo</span><br><span class="line">hexo init blog 初始化博客，命名为blog</span><br><span class="line">cd blog 进入博客</span><br><span class="line">hexo generate 生成静态页面</span><br><span class="line">hexo server 启动服务</span><br><span class="line">hexo new &quot;Hello&quot; 新建一个 名为Hello 的文件</span><br><span class="line">hexo d 部署到GitHub</span><br></pre></td></tr></table></figure>
 
 <h2 id="部署到GitHub"><a href="#部署到GitHub" class="headerlink" title="部署到GitHub"></a>部署到GitHub</h2><ol>
-<li><p>修改_config.yml 文件如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:yanglovewang/yanglovewang.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在设备上安装一个hexo插件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git</span><br></pre></td></tr></table></figure></li>
-<li><p>在GitHub上面创建仓库，仓库名字必须是：username.github.io，其中username是你的用户名</p>
-</li>
-<li><p>部署到GitHub命令：hexo d</p>
-</li>
-</ol>
-<h2 id="博客移植到不同设备上"><a href="#博客移植到不同设备上" class="headerlink" title="博客移植到不同设备上"></a>博客移植到不同设备上</h2><ul>
-<li>在Hexo中，有三类资源：源文件(文章数据)、主题资源和配置文件，分别对应Hexo初始化目录中 ../source 、../themes 和 ../_config.yml 。他们是构成博客站点的核心内容，当两个站点的源文件、主题资源和配置文件一致时，可以把他们看作是相同的。对于博客的移植，关键就是保持这三类资源在两台设备上的一致性。</li>
-</ul>
-<h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><ol>
-<li>markdown语法出错会导致在构建静态文件的时候报错，包括多余的空格。</li>
-</ol>
-
+<li>修改_config.yml 文件如下<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:yanglovewang/yanglovewang.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/2019/10/20/hello-world/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/20/hello-world/" data-id="ck1ywrlsw0000vgm88w00fzwk" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/20/hello-world/" data-id="ck1yztsz20000vom8ckb7ghuo" class="article-share-link">Share</a>
       
       
     </footer>
@@ -159,6 +152,13 @@
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/">测试分类</a></li></ul>
+    </div>
+  </div>
+
 
   
     
